@@ -1,0 +1,35 @@
+---------------------------------
+|           iPhone              |
+---------------------------------
+| + play()                     |
+| + pause()                    |
+| + stop()                     |
+| + fazerLigacao(numero: String)|
+| + enviarMensagem(msg: String, |
+|   destinatario: String)      |
+| + receberChamada(numero:     |
+|   String)                    |
+| + navegar()                  |
+| + abrirSite(url: String)     |
+| + fecharSite()               |
+---------------------------------
+        |           | 
+        |           |
+        |           |
+----------------  -----------------
+| Reprodutor   |  |   Navegador   |
+|   Musical    |  |   Internet    |
+----------------  -----------------
+| + play()     |  | + navegar()   |
+| + pause()    |  | + abrirSite() |
+| + stop()     |  | + fecharSite()|
+----------------  -----------------
+        |
+----------------
+| Aparelho   |
+| Telefônico |
+----------------
+| + fazerLigacao() |
+| + enviarMensagem()|
+| + receberChamada()|
+----------------
